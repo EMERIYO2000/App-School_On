@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+:root {
+  --so-body: #f8fafc;
+  --so-surface: #ffffff;
+  --so-surface-2: #f1f5f9;
+  --so-surface-3: #e2e8f0;
+  --so-ink: #0f172a;
+  --so-ink-2: #334155;
+  --so-ink-3: #64748b;
+  --so-line: #cbd5e1;
+  --so-line-2: #e2e8f0;
+  --so-blue-light: #dbeafe;
+  --so-terracotta-light: #f6e7e1;
+  --so-success-light: #dcfce7;
+  --so-warning-light: #fef3c7;
+  --so-error-light: #fee2e2;
+  --so-info-light: #e0f2fe;
+  color-scheme: light;
+}
+
+.dark {
+  --so-body: #0b1120;
+  --so-surface: #111a2e;
+  --so-surface-2: #1a2438;
+  --so-surface-3: #22304a;
+  --so-ink: #e6ebf5;
+  --so-ink-2: #c3cddf;
+  --so-ink-3: #8b98b5;
+  --so-line: #2c3a52;
+  --so-line-2: #24324a;
+  --so-blue-light: #12264e;
+  --so-terracotta-light: #3a2119;
+  --so-success-light: #0f2e1e;
+  --so-warning-light: #33291a;
+  --so-error-light: #3c1618;
+  --so-info-light: #0d2942;
+  color-scheme: dark;
+}
+
+.dark [class*="text-brand-blue-dark"] {
+  color: #93c5fd;
+}
+
+.dark [class*="text-brand-terracotta-dark"] {
+  color: #eebfa4;
+}
+
+.dark [class*="hover:text-brand-blue-dark"]:hover {
+  color: #93c5fd;
+}
+
+.dark [class*="hover:text-brand-terracotta-dark"]:hover {
+  color: #eebfa4;
+}
+
+@theme {
+  --font-sans: "Ubuntu", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-brand-blue: #2563eb;
+  --color-brand-blue-dark: #1e3a8a;
+  --color-brand-blue-light: var(--so-blue-light);
+  --color-brand-terracotta: #c96a4a;
+  --color-brand-terracotta-dark: #9f4f35;
+  --color-brand-terracotta-light: var(--so-terracotta-light);
+
+  --color-body: var(--so-body);
+  --color-surface: var(--so-surface);
+  --color-surface-2: var(--so-surface-2);
+  --color-surface-3: var(--so-surface-3);
+  --color-ink: var(--so-ink);
+  --color-ink-2: var(--so-ink-2);
+  --color-ink-3: var(--so-ink-3);
+  --color-line: var(--so-line);
+  --color-line-2: var(--so-line-2);
+
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+  --color-neutral-950: #0f172a;
+
+  --color-success: #16a34a;
+  --color-success-light: var(--so-success-light);
+  --color-warning: #d97706;
+  --color-warning-light: var(--so-warning-light);
+  --color-error: #dc2626;
+  --color-error-light: var(--so-error-light);
+  --color-info: #0284c7;
+  --color-info-light: var(--so-info-light);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 22px;
+  --radius-2xl: 28px;
+  --radius-pill: 9999px;
+
+  --shadow-1: 0 1px 2px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(15, 23, 42, 0.08);
+  --shadow-2: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+  --shadow-3: 0 20px 25px -5px rgba(15, 23, 42, 0.12), 0 8px 10px -6px rgba(15, 23, 42, 0.08);
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply bg-body text-ink font-sans antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--so-line) transparent;
+}
+
+*::selection {
+  background: var(--color-brand-blue);
+  color: #fff;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.25s ease-out both;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.35s ease-out both;
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.8s;
+}
+
+.animate-delay-3 {
+  animation-delay: 1.2s;
+}

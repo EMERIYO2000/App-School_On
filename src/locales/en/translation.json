@@ -1,0 +1,270 @@
+{
+  "common": {
+    "close": "Close",
+    "back": "Back",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "comingSoon": "Coming soon",
+    "states": {
+      "emptyTitle": "Nothing to show",
+      "errorTitle": "Oops…",
+      "errorMessage": "Something went wrong.",
+      "notFoundTitle": "Not found",
+      "notFoundMessage": "The requested resource does not exist.",
+      "offlineTitle": "Service temporarily unavailable",
+      "offlineBody": "This feature is not available yet. The backend is being finalized — it will be enabled as soon as the endpoints are online."
+    }
+  },
+  "nav": {
+    "sectionLearner": "Learner space",
+    "sectionLearnerProgress": "Community & progress",
+    "sectionAccount": "Account",
+    "sectionMentor": "Mentor space",
+    "sectionCredibility": "Credibility",
+    "sectionAdmin": "Administration",
+    "sectionFinance": "Finance & compliance",
+    "sectionSystem": "System",
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "catalog": "Catalog",
+    "courses": "Courses",
+    "learn": "Learn",
+    "myCourses": "My courses",
+    "createCourse": "Create a course",
+    "quiz": "Quizzes",
+    "examPrep": "Exam prep",
+    "mentors": "Mentors",
+    "sessions": "Sessions",
+    "community": "Community",
+    "progress": "Progress",
+    "certificates": "Certificates",
+    "wallet": "Wallet",
+    "users": "Users",
+    "payments": "Payments",
+    "reports": "Reports",
+    "moderation": "Moderation",
+    "settings": "Settings",
+    "settingsMobile": "Settings",
+    "verification": "Verification",
+    "learners": "Learners",
+    "earnings": "Earnings",
+    "profile": "Profile",
+    "myProfile": "My profile"
+  },
+  "header": {
+    "home": "Home",
+    "courses": "Courses",
+    "mentors": "Mentors",
+    "community": "Community",
+    "verify": "Verify a certificate",
+    "login": "Sign in",
+    "register": "Sign up"
+  },
+  "footer": {
+    "tagline": "A smart platform to learn, teach and help each other.",
+    "platform": "Platform",
+    "quiz": "Quizzes",
+    "info": "Information",
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "© {{year}} SCHOOL ON — Gitega, Burundi. Made with care for education."
+  },
+  "authLayout": {
+    "claim": "Learn, practice and grow together.",
+    "subtitle": "Courses, quizzes, verified mentors and an educational community — all in one place.",
+    "learn": "Learn",
+    "train": "Practice",
+    "mentors": "Mentors",
+    "community": "Community",
+    "copyright": "© {{year}} SCHOOL ON — Gitega"
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to continue learning.",
+    "errorTitle": "Unable to sign in",
+    "identifier": "Email or phone",
+    "identifierPh": "e.g. aminata@example.com",
+    "password": "Password",
+    "passwordPh": "Your password",
+    "hide": "Hide",
+    "show": "Show",
+    "forgot": "Forgot password?",
+    "submit": "Sign in",
+    "noAccount": "No account yet?",
+    "signup": "Sign up"
+  },
+  "register": {
+    "title": "Create an account",
+    "subtitle": "Join the SCHOOL ON community in seconds.",
+    "errorTitle": "Unable to register",
+    "roleStudent": "Learner (student)",
+    "roleStudentDesc": "I learn and I train",
+    "roleTeacher": "Teacher / Mentor",
+    "roleTeacherDesc": "I want to teach and mentor",
+    "fullName": "Full name",
+    "fullNamePh": "e.g. Aminata Niyonkuru",
+    "email": "Email",
+    "emailPh": "e.g. aminata@example.com",
+    "phone": "Phone",
+    "phonePh": "+257 61 00 00 00",
+    "phoneHint": "International format recommended.",
+    "asRole": "I want to use SCHOOL ON as…",
+    "password": "Password",
+    "passwordHint": "Min. 8 characters.",
+    "confirm": "Confirm",
+    "submit": "Create my account",
+    "haveAccount": "Already registered?",
+    "login": "Sign in",
+    "mismatch": "Passwords do not match.",
+    "createdTitle": "Account created successfully!",
+    "createdSubtitle": "Your SCHOOL ON account is ready. Tell us how you want to participate.",
+    "chooseJourney": "Choose my journey",
+    "orLogin": "Or go to sign in"
+  },
+  "forgot": {
+    "title": "Forgot password",
+    "subtitle": "Enter your email — we will send you a reset code.",
+    "email": "Email",
+    "submit": "Send the code",
+    "back": "← Back to sign in",
+    "sentTitle": "Code sent!",
+    "sentSubtitle": "We sent a verification code to {{email}}. Use it with your new password.",
+    "resetNow": "I have my code — reset",
+    "editEmail": "Change email"
+  },
+  "reset": {
+    "title": "Reset password",
+    "subtitle": "Enter the code you received by email and your new password.",
+    "email": "Email",
+    "otp": "Verification code (OTP)",
+    "otpHint": "6 digits received by email.",
+    "newPassword": "New password",
+    "submit": "Reset",
+    "back": "← Back to sign in",
+    "doneTitle": "Password reset",
+    "doneSubtitle": "You can now sign in with your new password.",
+    "goLogin": "Go to sign in"
+  },
+  "journey": {
+    "title": "How would you like to take part?",
+    "hello": "Hi {{name}} — Choose how you want to use SCHOOL ON. You can change it later.",
+    "learn": "Learn",
+    "learnDesc": "Take courses, do quizzes, find mentors and earn certificates.",
+    "teach": "Teach / Mentor",
+    "teachDesc": "Create courses, run mentoring sessions and get paid for your expertise.",
+    "later": "Decide later",
+    "laterDesc": "Start by exploring — we will guide you along the right path.",
+    "applied": "Application required",
+    "explore": "Explore without choosing"
+  },
+  "home": {
+    "heroBadge": "Smart education, everywhere",
+    "heroTitleStart": "Your future starts",
+    "heroTitleAccent": "here.",
+    "heroSubtitle": "Learn, practice, find the right mentor and prove your skills with verifiable certificates.",
+    "cta": "Start for free",
+    "seeCourses": "Browse courses",
+    "trustCert": "Verifiable certificates",
+    "trustMobile": "Mobile-first",
+    "trustMade": "Made for Burundi",
+    "cards": {
+      "0": {
+        "title": "Structured courses",
+        "desc": "From beginner to advanced."
+      },
+      "1": {
+        "title": "Graded quizzes",
+        "desc": "Instant results."
+      },
+      "2": {
+        "title": "Community",
+        "desc": "Questions — support."
+      },
+      "3": {
+        "title": "Certificates",
+        "desc": "Publicly verifiable."
+      }
+    },
+    "tiles": {
+      "learn": {
+        "title": "Learn",
+        "desc": "Clear, step-by-step courses."
+      },
+      "train": {
+        "title": "Practice",
+        "desc": "Corrected quizzes and exercises."
+      },
+      "mentors": {
+        "title": "Mentors",
+        "desc": "Verified experts."
+      },
+      "community": {
+        "title": "Community",
+        "desc": "Learners helping each other."
+      }
+    },
+    "catsEyebrow": "Browse",
+    "catsTitle": "Explore the categories",
+    "catsViewAll": "See all",
+    "catsError": "Come back later to discover the categories.",
+    "bandBadge": "For learners",
+    "bandTitle": "Learn, practice, then prove what you know.",
+    "bandSubtitle": "Finish your courses, ace your quizzes and earn a verifiable certificate — with a unique QR code, just like in real life.",
+    "bandPoints": {
+      "0": "Structured courses with saved progress",
+      "1": "Automatically graded quizzes, results kept server-side",
+      "2": "Publicly verifiable certificates"
+    },
+    "trustEyebrow": "Built in Burundi",
+    "trustTitle": "A home for every journey",
+    "trustLearnerTitle": "Learner",
+    "trustLearnerDesc": "Courses, quizzes, national exam prep, progress and certificates.",
+    "trustMentorTitle": "Mentor",
+    "trustMentorDesc": "Create courses, book sessions, receive secure payments.",
+    "trustTrustTitle": "Trust & security",
+    "trustTrustDesc": "Verified mentors, secure payments and protected data.",
+    "features": {
+      "0": {
+        "title": "Proof of skills",
+        "desc": "Certificates with a unique number and QR code, verifiable by anyone — without exposing your private data."
+      },
+      "1": {
+        "title": "Mentoring you can trust",
+        "desc": "Verified mentors, clean public profiles, secure payments and community moderation."
+      },
+      "2": {
+        "title": "Personalized path",
+        "desc": "One product to learn, practice, progress and get certified."
+      }
+    }
+  },
+  "appshell": {
+    "search": "Search a course, a mentor…",
+    "openMenu": "Open the menu",
+    "closeMenu": "Close the menu",
+    "notifications": "Notifications",
+    "wallet": "Wallet",
+    "accountMenu": "Account menu",
+    "myProfile": "My profile",
+    "settings": "Settings",
+    "logout": "Sign out"
+  },
+  "theme": {
+    "enableLight": "Enable light mode",
+    "enableDark": "Enable dark mode",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "pwa": {
+    "installTitle": "Install SCHOOL ON",
+    "installBody": "Use the platform offline, just like a real app.",
+    "install": "Install",
+    "updateTitle": "New version available",
+    "updateBody": "Reload to enjoy the latest improvements.",
+    "update": "Update",
+    "offlineTitle": "Ready offline",
+    "offlineBody": "The app is available even without a connection.",
+    "close": "Close"
+  }
+}

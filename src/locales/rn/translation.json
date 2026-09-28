@@ -1,0 +1,270 @@
+{
+  "common": {
+    "close": "Funga",
+    "back": "Subira inyuma",
+    "loading": "Birasoma…",
+    "retry": "Ongera ugerageze",
+    "comingSoon": "Bizaboneka vuba",
+    "states": {
+      "emptyTitle": "Nta kintu cyo kwerekana",
+      "errorTitle": "Yoo…",
+      "errorMessage": "Habaye ikibazo.",
+      "notFoundTitle": "Ntabihari",
+      "notFoundMessage": "Icyo wasabye ntikibaho.",
+      "offlineTitle": "Serivisi ntiboneka k'igihe",
+      "offlineBody": "Iyi mbaraga ntiboneka aka kanya. Backend irimo gusozwa — izakora uko endpoints iboneka."
+    }
+  },
+  "nav": {
+    "sectionLearner": "Urwego rw'umunyeshuri",
+    "sectionLearnerProgress": "Umuryango & imigendere",
+    "sectionAccount": "Konti",
+    "sectionMentor": "Urwego rw'umutoza",
+    "sectionCredibility": "Icyizere",
+    "sectionAdmin": "Ubuyobozi",
+    "sectionFinance": "Imari & ibwiriza",
+    "sectionSystem": "Sisitemu",
+    "home": "Ahabanza",
+    "dashboard": "Ikibaho",
+    "catalog": "Katalogi",
+    "courses": "Amasomo",
+    "learn": "Kwiga",
+    "myCourses": "Amasomo yanjye",
+    "createCourse": "Gukora isomo",
+    "quiz": "Kwibazwa",
+    "examPrep": "Kwitegura ibizamini",
+    "mentors": "Abatoza",
+    "sessions": "Amanama",
+    "community": "Umuryango",
+    "progress": "Imigendere",
+    "certificates": "Ibyemezo",
+    "wallet": "Waleti",
+    "users": "Abakoresha",
+    "payments": "Ubwishyu",
+    "reports": "Raporo",
+    "moderation": "Kugenzura",
+    "settings": "Igenamiterere",
+    "settingsMobile": "Igenamiterere",
+    "verification": "Kwemeza",
+    "learners": "Abanyeshuri",
+    "earnings": "Inyungu",
+    "profile": "Umwirondoro",
+    "myProfile": "Umwirondoro wanjye"
+  },
+  "header": {
+    "home": "Ahabanza",
+    "courses": "Amasomo",
+    "mentors": "Abatoza",
+    "community": "Umuryango",
+    "verify": "Kwemeza icyemezo",
+    "login": "Kwinjira",
+    "register": "Kwiyandikisha"
+  },
+  "footer": {
+    "tagline": "Urubuga rw'ubwenge rwo kwiga, kwigisha no gufashanya.",
+    "platform": "Urubuga",
+    "quiz": "Kwibazwa",
+    "info": "Amakuru",
+    "about": "Ibyerekeye",
+    "privacy": "Ibyibanga",
+    "terms": "Amabwiriza",
+    "rights": "© {{year}} SCHOOL ON — Gitega, Burundi. Byakozwe n'ubwitonzi ku burezi."
+  },
+  "authLayout": {
+    "claim": "Kwiga, kwitoza no gutera imbere.",
+    "subtitle": "Amasomo, kwibazwa, abatoza bemejwe n'umuryango w'uburezi — byose ahantu hamwe.",
+    "learn": "Kwiga",
+    "train": "Kwitoza",
+    "mentors": "Abatoza",
+    "community": "Umuryango",
+    "copyright": "© {{year}} SCHOOL ON — Gitega"
+  },
+  "login": {
+    "title": "Murakaza neza nanone",
+    "subtitle": "Injira kugira ngo ukomeze kwiga.",
+    "errorTitle": "Ntibishobotse kwinjira",
+    "identifier": "Imeyili cyangwa telefoni",
+    "identifierPh": "urugero: aminata@example.com",
+    "password": "Ijambobanga",
+    "passwordPh": "Ijambobanga ryawe",
+    "hide": "Hisha",
+    "show": "Erekana",
+    "forgot": "Wibagiwe ijambobanga ryaha?",
+    "submit": "Kwinjira",
+    "noAccount": "Nta konti urimo?",
+    "signup": "Kwiyandikisha"
+  },
+  "register": {
+    "title": "Gukora konti",
+    "subtitle": "Injira mu muryango wa SCHOOL ON mu masegonda make.",
+    "errorTitle": "Ntibishobotse kwiyandikisha",
+    "roleStudent": "Umunyeshuri (umunyeshuri)",
+    "roleStudentDesc": "Niga kandi nitozwa",
+    "roleTeacher": "Umwarimu / Umutoza",
+    "roleTeacherDesc": "Nshaka kwigisha no gufasha abandi",
+    "fullName": "Izina ryuzuye",
+    "fullNamePh": "urugero: Aminata Niyonkuru",
+    "email": "Imeyili",
+    "emailPh": "urugero: aminata@example.com",
+    "phone": "Telefoni",
+    "phonePh": "+257 61 00 00 00",
+    "phoneHint": "Amahame mpuzamahanga aratanganijwe.",
+    "asRole": "Nshaka gukoresha SCHOOL ON nka…",
+    "password": "Ijambobanga",
+    "passwordHint": "Inyuguti 8 nibura.",
+    "confirm": "Emeza",
+    "submit": "Gukora konti yanjye",
+    "haveAccount": "Usanzwe ufite konti?",
+    "login": "Kwinjira",
+    "mismatch": "Ijambobanga ntabihuza.",
+    "createdTitle": "Konti yakozwe neza!",
+    "createdSubtitle": "Konti yawe ya SCHOOL ON rarateguye. Tubwire uko ushaka kugira uruhare.",
+    "chooseJourney": "Hitamo urugendo rwawe",
+    "orLogin": "Cyangwa ujye ku kwinjira"
+  },
+  "forgot": {
+    "title": "Wibagiwe ijambobanga",
+    "subtitle": "Andika imeyili yawe: tuzohereza kode yo kongera gushyiraho ijambobanga.",
+    "email": "Imeyili",
+    "submit": "Ohereza kode",
+    "back": "← Subira ku kwinjira",
+    "sentTitle": "Kode yoherejwe!",
+    "sentSubtitle": "Twarungitse kode yo kwemeza kuri {{email}}. Yikoreshe hamwe n'ijambobanga ryawe rishya.",
+    "resetNow": "Nafite ya kode — kongera gushyiraho",
+    "editEmail": "Hindura imeyili"
+  },
+  "reset": {
+    "title": "Kongera gushyiraho ijambobanga",
+    "subtitle": "Andika kode wahagezwe n'imeyili n'ijambobanga ryawe rishya.",
+    "email": "Imeyili",
+    "otp": "Kode yo kwemeza (OTP)",
+    "otpHint": "Imibare 6 wahagezwe n'imeyili.",
+    "newPassword": "Ijambobanga rishya",
+    "submit": "Shyiraho",
+    "back": "← Subira ku kwinjira",
+    "doneTitle": "Ijambobanga ryashyizweho",
+    "doneSubtitle": "Ushobora ubu kwinjira n'ijambobanga ryawe rishya.",
+    "goLogin": "Jya ku kwinjira"
+  },
+  "journey": {
+    "title": "Wifuza kugira uruhe ruhare?",
+    "hello": "Muraho {{name}} — Hitamo uko ushaka gukoresha SCHOOL ON. Uzabasha kubihindura nyuma.",
+    "learn": "Kwiga",
+    "learnDesc": "Kwiyandikisha mu masomo, gukora isuzuma, gushaka abatoza no kubona ibyemezo.",
+    "teach": "Kwigisha / Umutoza",
+    "teachDesc": "Gukora amasomo, gutanga amanama yo kwigisha no guhemberwa ubumenyi bwawe.",
+    "later": "Gufata icyemezo nyuma",
+    "laterDesc": "Tangira ukomye — tuzakurikiranira umuhanda ukwiye.",
+    "applied": "Gusaba bikenerwa",
+    "explore": "Komeza utanahisemo"
+  },
+  "home": {
+    "heroBadge": "Uburezi bw'ubwenge, aho hose",
+    "heroTitleStart": "Ejo hazaza heza hatangira",
+    "heroTitleAccent": "hano.",
+    "heroSubtitle": "Iga, witoze, ubone umutoza ukwiye kugeza aho urekana ubumenyi bwawe n'ibyemezo biboneka ku mugaragaro.",
+    "cta": "Tangira ku buntu",
+    "seeCourses": "Reba amasomo",
+    "trustCert": "Ibyemezo biboneka ku mugaragaro",
+    "trustMobile": "Mobile-first",
+    "trustMade": "Byakozwe no ku Burundi",
+    "cards": {
+      "0": {
+        "title": "Amasomo atunganye",
+        "desc": "Kuva ku batangira kugeza ku bakabya."
+      },
+      "1": {
+        "title": "Kwibazwa gukosorwa",
+        "desc": "Ibisubizo ako kanya."
+      },
+      "2": {
+        "title": "Umuryango",
+        "desc": "Ibibazo — gufashanya."
+      },
+      "3": {
+        "title": "Ibyemezo",
+        "desc": "Biboneka ku mugaragaro."
+      }
+    },
+    "tiles": {
+      "learn": {
+        "title": "Kwiga",
+        "desc": "Amasomo asobanutse, agendana imbaraga."
+      },
+      "train": {
+        "title": "Kwitoza",
+        "desc": "Kwibazwa n'imyitozo ikosorwa."
+      },
+      "mentors": {
+        "title": "Abatoza",
+        "desc": "Abahanga bemejwe."
+      },
+      "community": {
+        "title": "Umuryango",
+        "desc": "Bafashanya hagati y'abanyeshuri."
+      }
+    },
+    "catsEyebrow": "Reba",
+    "catsTitle": "Ongera urebe ibyiciro",
+    "catsViewAll": "Reba byose",
+    "catsError": "Subira nyuma nyuma kugira ngo umenye ibyiciro.",
+    "bandBadge": "Ku banyeshuri",
+    "bandTitle": "Iga, witoze, hanyuma ugaragaze ibyo uzi.",
+    "bandSubtitle": "Musoreze amasomo yawe, utsinde isuzuma ryawe no kubona icyemezo kiboneka ku mugaragaro — hamwe na QR code idasanzwe, nko mu buzima nyarwo.",
+    "bandPoints": {
+      "0": "Amasomo atunganye afite imigendere ibitswe",
+      "1": "Kwibazwa gukosorwa ako kanya, ibisubizo bibitswe kuri seriveri",
+      "2": "Ibyemezo biboneka ku mugaragaro"
+    },
+    "trustEyebrow": "Byakozwe mu Burundi",
+    "trustTitle": "Urugo ku rugendo rwose",
+    "trustLearnerTitle": "Umunyeshuri",
+    "trustLearnerDesc": "Amasomo, kwibazwa, kwitegura ibizamini by'igihugu, imigendere n'ibyemezo.",
+    "trustMentorTitle": "Umutoza",
+    "trustMentorDesc": "Kora amasomo, hitire amanama, ake ubwishyu bukomeye.",
+    "trustTrustTitle": "Icyizere & umutekano",
+    "trustTrustDesc": "Abatoza bemejwe, ubwishyu bukomeye n'umutekano w'amakuru.",
+    "features": {
+      "0": {
+        "title": "Guhamya ubumenyi",
+        "desc": "Ibyemezo bifite nomero idasanzwe na QR code, bishobora gusuzumwa na muntu wese — utagaragaza amakuru y'ibanga."
+      },
+      "1": {
+        "title": "Umutorerwa wizewe",
+        "desc": "Abatoza bemejwe, umwirondoro rusange neza, ubwishyu bukomeye no kugenzura umuryango."
+      },
+      "2": {
+        "title": "Urugero rwihariye",
+        "desc": "Igikoresho kimwe cyo kwiga, kwitoza, gutera imbere no guhamya ubumenyi."
+      }
+    }
+  },
+  "appshell": {
+    "search": "Shaka isomo cyangwa umutoza…",
+    "openMenu": "Kingura menu",
+    "closeMenu": "Funga menu",
+    "notifications": "Amatangazo",
+    "wallet": "Waleti",
+    "accountMenu": "Menu ya konti",
+    "myProfile": "Umwirondoro wanjye",
+    "settings": "Igenamiterere",
+    "logout": "Sohoka"
+  },
+  "theme": {
+    "enableLight": "Kora uburyo bworoshye",
+    "enableDark": "Kora uburyo bw'ijima",
+    "light": "Bworoshye",
+    "dark": "Ijima"
+  },
+  "pwa": {
+    "installTitle": "Shyiraho SCHOOL ON",
+    "installBody": "Koresha urubuga udafite umurongo, nk'appication nyayo.",
+    "install": "Shyiraho",
+    "updateTitle": "Verisiyo nshya irahari",
+    "updateBody": "Ongera ufungure kugira ngo ubone ibyiza bishya.",
+    "update": "Vugurura",
+    "offlineTitle": "Itegure nta murongo",
+    "offlineBody": "Application irahari nta murongo ufite.",
+    "close": "Funga"
+  }
+}

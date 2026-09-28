@@ -1,0 +1,270 @@
+{
+  "common": {
+    "close": "Fermer",
+    "back": "Retour",
+    "loading": "Chargement…",
+    "retry": "Réessayer",
+    "comingSoon": "Bientôt disponible",
+    "states": {
+      "emptyTitle": "Rien à afficher",
+      "errorTitle": "Oups…",
+      "errorMessage": "Une erreur est survenue.",
+      "notFoundTitle": "Introuvable",
+      "notFoundMessage": "La ressource demandée n'existe pas.",
+      "offlineTitle": "Service momentanément indisponible",
+      "offlineBody": "Cette fonctionnalité n'est pas encore disponible. Le backend est en cours de finalisation — elle sera activée dès que les endpoints seront en ligne."
+    }
+  },
+  "nav": {
+    "sectionLearner": "Espace apprenant",
+    "sectionLearnerProgress": "Communauté & progression",
+    "sectionAccount": "Compte",
+    "sectionMentor": "Espace mentor",
+    "sectionCredibility": "Crédibilité",
+    "sectionAdmin": "Administration",
+    "sectionFinance": "Finance & conformité",
+    "sectionSystem": "Système",
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "catalog": "Catalogue",
+    "courses": "Cours",
+    "learn": "Apprendre",
+    "myCourses": "Mes cours",
+    "createCourse": "Créer un cours",
+    "quiz": "Quiz",
+    "examPrep": "Prépa examens",
+    "mentors": "Mentors",
+    "sessions": "Sessions",
+    "community": "Communauté",
+    "progress": "Progression",
+    "certificates": "Certificats",
+    "wallet": "Portefeuille",
+    "users": "Utilisateurs",
+    "payments": "Paiements",
+    "reports": "Rapports",
+    "moderation": "Modération",
+    "settings": "Paramètres",
+    "settingsMobile": "Réglages",
+    "verification": "Vérification",
+    "learners": "Apprenants",
+    "earnings": "Gains",
+    "profile": "Profil",
+    "myProfile": "Mon profil"
+  },
+  "header": {
+    "home": "Accueil",
+    "courses": "Cours",
+    "mentors": "Mentors",
+    "community": "Communauté",
+    "verify": "Vérifier un certificat",
+    "login": "Se connecter",
+    "register": "S'inscrire"
+  },
+  "footer": {
+    "tagline": "Une plateforme intelligente pour apprendre, enseigner et s'entraider.",
+    "platform": "Plateforme",
+    "quiz": "Quiz",
+    "info": "Informations",
+    "about": "À propos",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "rights": "© {{year}} SCHOOL ON — Gitega, Burundi. Fait avec soin pour l'éducation."
+  },
+  "authLayout": {
+    "claim": "Apprendre, s'entraîner et progresser ensemble.",
+    "subtitle": "Des cours, des quiz, des mentors vérifiés et une communauté éducative — tout au même endroit.",
+    "learn": "Apprendre",
+    "train": "S'entraîner",
+    "mentors": "Mentors",
+    "community": "Communauté",
+    "copyright": "© {{year}} SCHOOL ON — Gitega"
+  },
+  "login": {
+    "title": "Bon retour parmi nous",
+    "subtitle": "Connecte-toi pour continuer ton apprentissage.",
+    "errorTitle": "Connexion impossible",
+    "identifier": "E-mail ou téléphone",
+    "identifierPh": "ex. aminata@example.com",
+    "password": "Mot de passe",
+    "passwordPh": "Votre mot de passe",
+    "hide": "Masquer",
+    "show": "Afficher",
+    "forgot": "Mot de passe oublié ?",
+    "submit": "Se connecter",
+    "noAccount": "Pas encore de compte ?",
+    "signup": "S'inscrire"
+  },
+  "register": {
+    "title": "Créer un compte",
+    "subtitle": "Rejoins la communauté SCHOOL ON en quelques secondes.",
+    "errorTitle": "Inscription impossible",
+    "roleStudent": "Apprenant (étudiant)",
+    "roleStudentDesc": "J'apprends et je me forme",
+    "roleTeacher": "Enseignant / Mentor",
+    "roleTeacherDesc": "Je souhaite enseigner et accompagner",
+    "fullName": "Nom complet",
+    "fullNamePh": "ex. Aminata Niyonkuru",
+    "email": "E-mail",
+    "emailPh": "ex. aminata@example.com",
+    "phone": "Téléphone",
+    "phonePh": "+257 61 00 00 00",
+    "phoneHint": "Format international recommandé.",
+    "asRole": "Je souhaite utiliser SCHOOL ON en tant que…",
+    "password": "Mot de passe",
+    "passwordHint": "Min. 8 caractères.",
+    "confirm": "Confirmer",
+    "submit": "Créer mon compte",
+    "haveAccount": "Déjà inscrit ?",
+    "login": "Se connecter",
+    "mismatch": "Les mots de passe ne correspondent pas.",
+    "createdTitle": "Compte créé avec succès !",
+    "createdSubtitle": "Ton compte SCHOOL ON est prêt. Dis-nous comment tu veux participer.",
+    "chooseJourney": "Choisir mon parcours",
+    "orLogin": "Ou aller à la connexion"
+  },
+  "forgot": {
+    "title": "Mot de passe oublié",
+    "subtitle": "Indique ton e-mail : nous t'enverrons un code de réinitialisation.",
+    "email": "E-mail",
+    "submit": "Envoyer le code",
+    "back": "← Retour à la connexion",
+    "sentTitle": "Code envoyé !",
+    "sentSubtitle": "Nous avons envoyé un code de vérification à {{email}}. Utilise-le avec ton nouveau mot de passe.",
+    "resetNow": "J'ai mon code — réinitialiser",
+    "editEmail": "Modifier l'e-mail"
+  },
+  "reset": {
+    "title": "Réinitialiser le mot de passe",
+    "subtitle": "Saisis le code reçu par e-mail et ton nouveau mot de passe.",
+    "email": "E-mail",
+    "otp": "Code de vérification (OTP)",
+    "otpHint": "6 chiffres reçus par e-mail.",
+    "newPassword": "Nouveau mot de passe",
+    "submit": "Réinitialiser",
+    "back": "← Retour à la connexion",
+    "doneTitle": "Mot de passe réinitialisé",
+    "doneSubtitle": "Tu peux maintenant te connecter avec ton nouveau mot de passe.",
+    "goLogin": "Aller à la connexion"
+  },
+  "journey": {
+    "title": "Comment souhaitez-vous participer ?",
+    "hello": "Bonjour {{name}} — Choisis comment tu veux utiliser SCHOOL ON. Tu pourras l'adapter plus tard.",
+    "learn": "Apprendre",
+    "learnDesc": "Suivre des cours, faire des quiz, trouver des mentors et décrocher des certificats.",
+    "teach": "Enseigner / Mentor",
+    "teachDesc": "Créer des cours, donner des sessions de mentorat et être rémunéré pour ton expertise.",
+    "later": "Décider plus tard",
+    "laterDesc": "Commence par explorer — nous t'accompagnerons dans le bon parcours.",
+    "applied": "Application requise",
+    "explore": "Explorer sans choisir"
+  },
+  "home": {
+    "heroBadge": "Une éducation intelligente, partout",
+    "heroTitleStart": "Votre avenir commence",
+    "heroTitleAccent": "ici.",
+    "heroSubtitle": "Apprenez, entraînez-vous, trouvez le bon mentor et prouvez vos compétences avec des certificats vérifiables.",
+    "cta": "Commencer gratuitement",
+    "seeCourses": "Voir les cours",
+    "trustCert": "Certificats vérifiables",
+    "trustMobile": "Mobile-first",
+    "trustMade": "Conçu pour le Burundi",
+    "cards": {
+      "0": {
+        "title": "Cours structurés",
+        "desc": "Du débutant à l'avancé."
+      },
+      "1": {
+        "title": "Quiz corrigés",
+        "desc": "Résultats instantanés."
+      },
+      "2": {
+        "title": "Communauté",
+        "desc": "Questions — entraide."
+      },
+      "3": {
+        "title": "Certificats",
+        "desc": "Vérifiables en public."
+      }
+    },
+    "tiles": {
+      "learn": {
+        "title": "Apprendre",
+        "desc": "Des cours clairs, pas à pas."
+      },
+      "train": {
+        "title": "S'entraîner",
+        "desc": "Quiz et exercices corrigés."
+      },
+      "mentors": {
+        "title": "Mentors",
+        "desc": "Des experts vérifiés."
+      },
+      "community": {
+        "title": "Communauté",
+        "desc": "S'entraider entre apprenants."
+      }
+    },
+    "catsEyebrow": "Parcourir",
+    "catsTitle": "Explore les catégories",
+    "catsViewAll": "Tout voir",
+    "catsError": "Reviens plus tard pour découvrir les catégories.",
+    "bandBadge": "Pour les apprenants",
+    "bandTitle": "Apprends, pratique, puis prouve ce que tu sais.",
+    "bandSubtitle": "Termine tes cours, réussis tes quiz et obtiens un certificat vérifiable — avec un QR code unique, comme dans la vraie vie.",
+    "bandPoints": {
+      "0": "Cours structurés avec progression enregistrée",
+      "1": "Quiz corrigés automatiquement, résultats côté serveur",
+      "2": "Certificats vérifiables publiquement"
+    },
+    "trustEyebrow": "Développé au Burundi",
+    "trustTitle": "Pour chaque parcours, une maison",
+    "trustLearnerTitle": "Apprenant",
+    "trustLearnerDesc": "Cours, quiz, préparation aux examens d'État, progression et certificats.",
+    "trustMentorTitle": "Mentor",
+    "trustMentorDesc": "Crée des cours, réserve des sessions, reçois des paiements sécurisés.",
+    "trustTrustTitle": "Confiance & sécurité",
+    "trustTrustDesc": "Mentors vérifiés, paiements sécurisés et données protégées.",
+    "features": {
+      "0": {
+        "title": "Preuve de compétences",
+        "desc": "Des certificats à numéro unique et QR code, vérifiables par n'importe qui — sans exposer tes données privées."
+      },
+      "1": {
+        "title": "Mentorat en confiance",
+        "desc": "Mentors vérifiés, profils publics propres, paiements sécurisés et modération de la communauté."
+      },
+      "2": {
+        "title": "Parcours personnalisé",
+        "desc": "Un seul produit pour apprendre, pratiquer, progresser et être certifié."
+      }
+    }
+  },
+  "appshell": {
+    "search": "Rechercher un cours, un mentor…",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "notifications": "Notifications",
+    "wallet": "Portefeuille",
+    "accountMenu": "Menu du compte",
+    "myProfile": "Mon profil",
+    "settings": "Paramètres",
+    "logout": "Se déconnecter"
+  },
+  "theme": {
+    "enableLight": "Activer le mode clair",
+    "enableDark": "Activer le mode sombre",
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "pwa": {
+    "installTitle": "Installer SCHOOL ON",
+    "installBody": "Accède à la plateforme hors-ligne comme une vraie application.",
+    "install": "Installer",
+    "updateTitle": "Nouvelle version disponible",
+    "updateBody": "Recharge pour profiter des dernières améliorations.",
+    "update": "Mettre à jour",
+    "offlineTitle": "Prêt hors-ligne",
+    "offlineBody": "L'application est disponible même sans connexion.",
+    "close": "Fermer"
+  }
+}

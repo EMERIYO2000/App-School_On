@@ -1,0 +1,270 @@
+{
+  "common": {
+    "close": "Funga",
+    "back": "Rudi nyuma",
+    "loading": "Inasoma…",
+    "retry": "Jaribu tena",
+    "comingSoon": "Inakuja hivi karibuni",
+    "states": {
+      "emptyTitle": "Hakuna cha kuonyesha",
+      "errorTitle": "Lo…",
+      "errorMessage": "Kuna tatizo limetokea.",
+      "notFoundTitle": "Haipatikani",
+      "notFoundMessage": "Kitu ulichoomba hakipo.",
+      "offlineTitle": "Huduma haipatikani kwa sasa",
+      "offlineBody": "Kipengele hiki hakijapatikana bado. Backend inakamilishwa — kitawashwa mara endpoints zitakapokuwa online."
+    }
+  },
+  "nav": {
+    "sectionLearner": "Nafasi ya mwanafunzi",
+    "sectionLearnerProgress": "Jumuiya & maendeleo",
+    "sectionAccount": "Akaunti",
+    "sectionMentor": "Nafasi ya mshauri",
+    "sectionCredibility": "Kutegemewa",
+    "sectionAdmin": "Uongozi",
+    "sectionFinance": "Fedha & uzingatiaji",
+    "sectionSystem": "Mfumo",
+    "home": "Nyumbani",
+    "dashboard": "Dashibodi",
+    "catalog": "Katalogi",
+    "courses": "Kozi",
+    "learn": "Jifunze",
+    "myCourses": "Kozi zangu",
+    "createCourse": "Tengeneza kozi",
+    "quiz": "Majaribio",
+    "examPrep": "Maandalizi ya mitihani",
+    "mentors": "Washauri",
+    "sessions": "Vipindi",
+    "community": "Jumuiya",
+    "progress": "Maendeleo",
+    "certificates": "Cheti",
+    "wallet": "Pochi",
+    "users": "Watumiaji",
+    "payments": "Malipo",
+    "reports": "Ripoti",
+    "moderation": "Ufuatiliaji",
+    "settings": "Mipangilio",
+    "settingsMobile": "Mipangilio",
+    "verification": "Uthibitisho",
+    "learners": "Wanafunzi",
+    "earnings": "Mapato",
+    "profile": "Wasifu",
+    "myProfile": "Wasifu wangu"
+  },
+  "header": {
+    "home": "Nyumbani",
+    "courses": "Kozi",
+    "mentors": "Washauri",
+    "community": "Jumuiya",
+    "verify": "Thibitisha cheti",
+    "login": "Ingia",
+    "register": "Jiunge"
+  },
+  "footer": {
+    "tagline": "Jukwaa mahiri la kujifunza, kufundisha na kusaidiana.",
+    "platform": "Jukwaa",
+    "quiz": "Majaribio",
+    "info": "Taarifa",
+    "about": "Kuhusu",
+    "privacy": "Faragha",
+    "terms": "Masharti",
+    "rights": "© {{year}} SCHOOL ON — Gitega, Burundi. Imetengenezwa kwa uangalifu kwa elimu."
+  },
+  "authLayout": {
+    "claim": "Jifunze, fanya mazoezi na kukua pamoja.",
+    "subtitle": "Kozi, majaribio, washauri waliothibitishwa na jumuiya ya elimu — kila kitu mahali pamoja.",
+    "learn": "Jifunze",
+    "train": "Fanya mazoezi",
+    "mentors": "Washauri",
+    "community": "Jumuiya",
+    "copyright": "© {{year}} SCHOOL ON — Gitega"
+  },
+  "login": {
+    "title": "Karibu tena",
+    "subtitle": "Ingia kuendelea na kujifunza.",
+    "errorTitle": "Haiwezekani kuingia",
+    "identifier": "Barua pepe au simu",
+    "identifierPh": "mf. aminata@example.com",
+    "password": "Nenosiri",
+    "passwordPh": "Nenosiri lako",
+    "hide": "Ficha",
+    "show": "Onyesha",
+    "forgot": "Umesahau nenosiri?",
+    "submit": "Ingia",
+    "noAccount": "Huna akaunti bado?",
+    "signup": "Jiunge"
+  },
+  "register": {
+    "title": "Tengeneza akaunti",
+    "subtitle": "Jiunge na jumuiya ya SCHOOL ON kwa sekunde chache.",
+    "errorTitle": "Haiwezekani kujisajili",
+    "roleStudent": "Mwanafunzi (mwanafunzi)",
+    "roleStudentDesc": "Ninajifunza na kufanya mazoezi",
+    "roleTeacher": "Mwalimu / Mshauri",
+    "roleTeacherDesc": "Nataka kufundisha na kusaidia",
+    "fullName": "Jina kamili",
+    "fullNamePh": "mf. Aminata Niyonkuru",
+    "email": "Barua pepe",
+    "emailPh": "mf. aminata@example.com",
+    "phone": "Simu",
+    "phonePh": "+257 61 00 00 00",
+    "phoneHint": "Muundo wa kimataifa unapendekezwa.",
+    "asRole": "Nataka kutumia SCHOOL ON kama…",
+    "password": "Nenosiri",
+    "passwordHint": "Angalau herufi 8.",
+    "confirm": "Thibitisha",
+    "submit": "Tengeneza akaunti yangu",
+    "haveAccount": "Umeshasajili?",
+    "login": "Ingia",
+    "mismatch": "Nenosiri hazilingani.",
+    "createdTitle": "Akaunti imetengenezwa kwa mafanikio!",
+    "createdSubtitle": "Akaunti yako ya SCHOOL ON iko tayari. Tuambie ungependa kushiriki jinsi gani.",
+    "chooseJourney": "Chagua safari yangu",
+    "orLogin": "Au nenda kuingia"
+  },
+  "forgot": {
+    "title": "Umesahau nenosiri",
+    "subtitle": "Andika barua pepe yako: tutakutumia msimbo wa kuweka upya.",
+    "email": "Barua pepe",
+    "submit": "Tuma msimbo",
+    "back": "← Rudi kwenye kuingia",
+    "sentTitle": "Msimbo umetumwa!",
+    "sentSubtitle": "Tumekutumia msimbo wa uthibitishaji kwenye {{email}}. Utumie na nenosiri lako jipya.",
+    "resetNow": "Nina msimbo — weka upya",
+    "editEmail": "Badilisha barua pepe"
+  },
+  "reset": {
+    "title": "Weka upya nenosiri",
+    "subtitle": "Andika msimbo uliopokea kwa barua pepe na nenosiri lako jipya.",
+    "email": "Barua pepe",
+    "otp": "Msimbo wa uthibitishaji (OTP)",
+    "otpHint": "Namba 6 zilizopokelewa kwa barua pepe.",
+    "newPassword": "Nenosiri jipya",
+    "submit": "Weka upya",
+    "back": "← Rudi kwenye kuingia",
+    "doneTitle": "Nenosiri limewekwa upya",
+    "doneSubtitle": "Sasa unaweza kuingia na nenosiri lako jipya.",
+    "goLogin": "Nenda kuingia"
+  },
+  "journey": {
+    "title": "Ungependa kushiriki namna gani?",
+    "hello": "Habari {{name}} — Chagua jinsi unavyotaka kutumia SCHOOL ON. Utaweza kuibadilisha baadaye.",
+    "learn": "Jifunze",
+    "learnDesc": "Chukua kozi, fanya majaribio, pata washauri na upate cheti.",
+    "teach": "Fundisha / Mshauri",
+    "teachDesc": "Tengeneza kozi, toa vipindi vya ushauri na ulipwe kwa utaalamu wako.",
+    "later": "Amua baadaye",
+    "laterDesc": "Anza kwa kupekua — tutakuelekeza kwenye njia inayofaa.",
+    "applied": "Maombi yanahitajika",
+    "explore": "Pekua bila kuchagua"
+  },
+  "home": {
+    "heroBadge": "Elimu mahiri, kila mahali",
+    "heroTitleStart": "Mustakabali wako unaanza",
+    "heroTitleAccent": "hapa.",
+    "heroSubtitle": "Jifunze, fanya mazoezi, pata mshauri sahihi na thibitisha ujuzi wako kwa vyeti vinavyoweza kuthibitishwa.",
+    "cta": "Anza bila malipo",
+    "seeCourses": "Tazama kozi",
+    "trustCert": "Vyeti vinavyoweza kuthibitishwa",
+    "trustMobile": "Mobile-first",
+    "trustMade": "Imetengenezwa kwa ajili ya Burundi",
+    "cards": {
+      "0": {
+        "title": "Kozi zilizoundwa vizuri",
+        "desc": "Kuanzia mwanzo hadi ngazi ya juu."
+      },
+      "1": {
+        "title": "Majaribio yanayosahihishwa",
+        "desc": "Matokeo ya papo hapo."
+      },
+      "2": {
+        "title": "Jumuiya",
+        "desc": "Maswali — msaada."
+      },
+      "3": {
+        "title": "Cheti",
+        "desc": "Vinathibitishwa hadharani."
+      }
+    },
+    "tiles": {
+      "learn": {
+        "title": "Jifunze",
+        "desc": "Kozi wazi, hatua kwa hatua."
+      },
+      "train": {
+        "title": "Fanya mazoezi",
+        "desc": "Majaribio na mazoezi yaliyosahihishwa."
+      },
+      "mentors": {
+        "title": "Washauri",
+        "desc": "Wataalamu waliothibitishwa."
+      },
+      "community": {
+        "title": "Jumuiya",
+        "desc": "Wanafunzi kusaidiana."
+      }
+    },
+    "catsEyebrow": "Vinjari",
+    "catsTitle": "Chunguza kategoria",
+    "catsViewAll": "Ona yote",
+    "catsError": "Rudi baadaye kugundua kategoria.",
+    "bandBadge": "Kwa wanafunzi",
+    "bandTitle": "Jifunze, fanya mazoezi, kisha uthibitishe unachojua.",
+    "bandSubtitle": "Maliza kozi zako, faulu majaribio yako na upate cheti kinachoweza kuthibitishwa — chenye QR code ya kipekee, kama katika maisha halisi.",
+    "bandPoints": {
+      "0": "Kozi zilizostrukturu na maendeleo yaliyohifadhiwa",
+      "1": "Majaribio yanayosahihishwa kiotomatiki, matokeo kwenye seva",
+      "2": "Vyeti vinavyoweza kuthibitishwa hadharani"
+    },
+    "trustEyebrow": "Iliyotengenezwa Burundi",
+    "trustTitle": "Nyumba ya kila safari",
+    "trustLearnerTitle": "Mwanafunzi",
+    "trustLearnerDesc": "Kozi, majaribio, maandalizi ya mitihani ya serikali, maendeleo na vyeti.",
+    "trustMentorTitle": "Mshauri",
+    "trustMentorDesc": "Tengeneza kozi, weka vipindi, pokea malipo salama.",
+    "trustTrustTitle": "Uaminifu & usalama",
+    "trustTrustDesc": "Washauri waliothibitishwa, malipo salama na data iliyolindwa.",
+    "features": {
+      "0": {
+        "title": "Uthibitisho wa ujuzi",
+        "desc": "Vyeti vyenye namba ya kipekee na QR code, vinavyoweza kuthibitishwa na mtu yeyote — bila kuweka wazi data yako binafsi."
+      },
+      "1": {
+        "title": "Ushauri wa kuaminika",
+        "desc": "Washauri waliothibitishwa, wasifu safi ya umma, malipo salama na ufuatiliaji wa jumuiya."
+      },
+      "2": {
+        "title": "Njia maalum",
+        "desc": "Bidhaa moja ya kujifunza, kufanya mazoezi, kukua na kupata cheti."
+      }
+    }
+  },
+  "appshell": {
+    "search": "Tafuta kozi, mshauri…",
+    "openMenu": "Fungua menu",
+    "closeMenu": "Funga menu",
+    "notifications": "Arifa",
+    "wallet": "Pochi",
+    "accountMenu": "Menu ya akaunti",
+    "myProfile": "Wasifu wangu",
+    "settings": "Mipangilio",
+    "logout": "Toka"
+  },
+  "theme": {
+    "enableLight": "Washa hali ya mwangaza",
+    "enableDark": "Washa hali ya giza",
+    "light": "Mwangaza",
+    "dark": "Giza"
+  },
+  "pwa": {
+    "installTitle": "Sakinisha SCHOOL ON",
+    "installBody": "Tumia jukwaa bila mtandao, kama app halisi.",
+    "install": "Sakinisha",
+    "updateTitle": "Toleo jipya lipo",
+    "updateBody": "Pakia upya kufurahia maboresho mapya.",
+    "update": "Sasisha",
+    "offlineTitle": "Tayari bila mtandao",
+    "offlineBody": "App inapatikana hata bila muunganisho.",
+    "close": "Funga"
+  }
+}
